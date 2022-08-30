@@ -3,7 +3,7 @@ module.exports = {
     nomPiste,
     url,
     residenceFiscale,
-    parcoursCeder,
+    typeParcours,
     parcoursDonner,
     situation,
     situation2,
@@ -12,15 +12,15 @@ module.exports = {
     cteUniverselle,
     separationBien,
     participationAcquet,
-    pisteExperte,
-    pistePrioritaire,
-    pisteNonPrioritaire,
+    // pisteExperte,
+    // pistePrioritaire,
+    // pisteNonPrioritaire,
   ) {
     this.nomPiste = nomPiste
     this.url = url
     this.residenceFiscale = residenceFiscale
-    this.parcoursCeder = parcoursCeder
-    this.parcoursDonner = parcoursDonner
+    this.typeParcours = typeParcours
+    // this.parcoursDonner = parcoursDonner
     this.situation = situation
     this.situation2 = situation2 // une piste peut s'appliquer à plusieurs situation sinon return nil
     this.situation3 = situation3
@@ -28,8 +28,8 @@ module.exports = {
     this.cteUniverselle = cteUniverselle
     this.separationBien = separationBien
     this.participationAcquet = participationAcquet
-    this.pisteExperte = pisteExperte
-    this.pistePrioritaire = pistePrioritaire
-    this.pisteNonPrioritaire = pisteNonPrioritaire
+    // this.pisteExperte = pisteExperte
+    // this.pistePrioritaire = pistePrioritaire
+    // this.pisteNonPrioritaire = pisteNonPrioritaire
   },
 }
