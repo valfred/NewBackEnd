@@ -1,7 +1,6 @@
 //ici on va récupér le bon parcours et ses pistes de réflexion
 //en fonction de la résidence fiscale
 //et du type de parcours
-//ensuite on applique les filtres true ou false pour chaque paramètre
 
 
 if residenceFiscale == "fr" && typeParcours == "cederEnse" 
