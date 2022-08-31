@@ -9,6 +9,8 @@
 //et dans le user on fait des conditions pour récupérer le bon parcours et ses pistes de réflexion
 //si resident "fr" et typeParcours "cederEnse" alors c'est le fichier frPiste_parcoursCederEnse.js
 
+//fr_parcoursCederEnse.js
+
 .then((data) => {
   Finance.findOne({
     where: { userId: req.params.id },
